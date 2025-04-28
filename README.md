@@ -73,4 +73,21 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 -   php artisan db:seed --force
 
 
-## To run in VS code -> in terminal type -> composer dev (switch ON apache and MySQL) -> http://127.0.0.1:8000
+## Running the Project
+1. **Start Apache and MySQL servers** (e.g., using XAMPP or similar).
+2. **In VS Code terminal**, run the following command:
+   composer dev
+3. Open your browser and visit: http://127.0.0.1:8000
+4. Ensure you have composer and npm installed globally.
+
+5. Check your .env file is properly configured for your database connection.
+
+6. If using Laravel Mix or Vite for assets, you may also need to run: npm run dev
+
+
+## Requirements
+PHP >= 8.1
+Composer
+MySQL
+Node.js and NPM
+Apache Server
