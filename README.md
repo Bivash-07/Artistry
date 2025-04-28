@@ -71,3 +71,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 -   php artisan db:seed
 -   php artisan db:seed --class=UserSeeder
 -   php artisan db:seed --force
+
+
+## To run in VS code -> in terminal type -> composer dev (switch ON apache and MySQL) -> http://127.0.0.1:8000
